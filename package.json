@@ -1,6 +1,6 @@
 {
     "name": "react-project-template",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "custom lite react dev template",
     "main": "index.js",
     "scripts": {
@@ -64,7 +64,9 @@
         "webpack-merge": "^5.8.0",
         "webpackbar": "^5.0.0-3"
     },
-    "devDependencies": {},
+    "devDependencies": {
+        "portfinder-sync": "^0.0.2"
+    },
     "browserslist": [
         ">0.2%",
         "not dead",
