@@ -1,0 +1,44 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "ESNext",
+        "lib": ["dom", "dom.iterable", "esnext"],
+        "allowJs": true,
+        "jsx": "react",
+        "isolatedModules": true,
+        "strict": true,
+
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "baseUrl": "./",
+        "paths": {
+            "@public/*": ["public/*"],
+            "@src/*": ["src/*"],
+            "@views/*": ["src/views/*"],
+            "@layouts/*": ["src/layouts/*"],
+            "@components/*": ["src/components/*"],
+            "@plugins/*": ["src/plugins/*"],
+            "@custom/*": ["src/custom/*"],
+            "@typings/*": ["src/typings/*"],
+            "@utils/*": ["src/utils/*"],
+            "@service/*": ["src/service/*"],
+            "@store/*": ["src/store/*"],
+            "@assets/*": ["src/assets/*"],
+            "@styles/*": ["src/styles/*"],
+            "@mocks/*": ["src/mocks/*"],
+            "@report/*": ["src/report/*"],
+            "@test/*": ["src/test/*"]
+        },
+
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true,
+        "allowSyntheticDefaultImports": true,
+        "noEmit": true
+    },
+    "include": ["src"],
+    "exclude": ["node_modules"]
+}
